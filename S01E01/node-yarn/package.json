@@ -1,0 +1,13 @@
+{
+  "name": "node-yarn",
+  "version": "0.1.0",
+  "description": "First lecture node-yarn project",
+  "main": "index.js",
+  "author": "Bryce Kehoe",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "colors": "^1.3.2",
+    "cowsay": "^1.3.1"
+  }
+}
