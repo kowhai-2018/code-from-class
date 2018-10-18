@@ -1,8 +1,10 @@
 const server = require('./server')
 const path = require('path')
 
-server.listen(3000, function () {
-  console.log('Listening on port 3000...')
+const PORT = 3000
+
+server.listen(PORT, function () {
+  console.log('Listening on port', PORT, '...')
 })
 
 server.get('/', (req, res) => {
@@ -16,9 +18,10 @@ server.get('/kowhai', (req, res) => {
 })
 
 server.get('/hi/:name', (req, res) => {
+  console.log('Hitting /hi')
+
   const name = req.params.name
 
-  console.log('Hitting /hi')
   res.send('Hi ' + name + '!')
 })
 
