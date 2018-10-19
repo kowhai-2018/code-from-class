@@ -1,0 +1,19 @@
+{
+  "name": "S01E05-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --watch --noStackTrace"
+  },
+  "devDependencies": {
+    "supertest": "^3.3.0"
+  }
+}
