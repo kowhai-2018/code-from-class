@@ -1,0 +1,18 @@
+{
+  "name": "forms-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rich Churcher <rich.churcher@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  }
+}
