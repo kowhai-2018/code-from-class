@@ -15,3 +15,6 @@
 * Episode 2-1: [handlebars, server-side-rendering](S02E02-1)
 * Episode 2-2: [supertest, cheerio](S02E02-2)
 * Episode 3-1: [express-router](S02E03-1)
+
+## Season Three
+* Episode 1-1: [databases, knex](S03E01-1)

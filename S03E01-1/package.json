@@ -1,0 +1,13 @@
+{
+  "name": "S03E01-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.3"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  }
+}
