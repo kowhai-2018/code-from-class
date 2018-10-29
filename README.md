@@ -19,3 +19,4 @@
 
 ## Season Three
 * Episode 1-1: [databases, knex](S03E01-1)
+* Episode 1-2: [promises](S03E01-2)
