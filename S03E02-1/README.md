@@ -1,26 +1,33 @@
-users
-=====
-id -> MUST BE UNIQUE, probably auto-increment
-email
-created
-updated
+### users
 
-profiles
-========
-id -> MUST BE UNIQUE
-user_id -> users.id
-bio
-avatar
-created -> knex.timestamps()
-updated
+col        | notes
+-----------|------
+id         | MUST BE UNIQUE, probably auto-increment
+email      |
+created_at | `knex.timestamps()` (also note `knex.fn.now()`
+updated_at |
 
-contacts
-========
-id
-user_id -> users.id
-phone
-url
-created
-updated
+### profiles
+
+col        | notes
+-----------|------
+id         | UNIQUE
+user_id    | references `users.id`
+bio        |
+avatar     | probably a URL
+created_at | `knex.timestamps()`
+updated_at |
+
+
+### contacts
+
+col        | notes
+-----------|------
+id         | UNIQUE
+user_id    | references `users.id`
+phone      |
+url        |
+created_at | `knex.timestamps()`
+updated_at |
 
 What if we need: email from users AND phone from contacts AND bio from profiles? JOINS.
