@@ -29,6 +29,36 @@ server.get('/books', (req, res) => {
     })
 })
 
+// Consider this way to get a list of authors and their books
+server.get('/authors', (req, res) => {
+  db('authors_books')
+    .select('authors.id as authorId', 'books.id as bookId', 'title', 'name')
+    .join('authors', 'authors.id', '=', 'authors_books.author_id')
+    .join('books', 'books.id', '=', 'authors_books.book_id')
+    .then(result => {
+      const authorsAndBooks = result.reduce((index, row) => {
+        // `index` is an object that we use to organise our authors
+        // Each author is a property name. Its value is an array of book titles.
+        if (!index[row.name]) {
+          index[row.name] = [ row.title ]
+        } else {
+          index[row.name].push(row.title)
+        }
+        return index
+      }, {})
+
+      // So now we have an object! We kinda need an array of objects.
+      const authors = Object.keys(authorsAndBooks).map(author => {
+        const books = authorsAndBooks[author]
+        return {
+          author,
+          books
+        }
+      })
+      res.render('authors', { authors })
+    })
+})
+
 server.get('/profiles', (req, res) => {
   db('users')
     .join('profiles', 'users.id', '=', 'profiles.user_id')
