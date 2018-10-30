@@ -55,6 +55,12 @@ server.get('/authors', (req, res) => {
           books
         }
       })
+
+      // Now we have an authors array that looks like this:
+      // [
+      //   { author: 'Gertrude', books: [ 'Aardvarks and Antelopes', 'Wombats and Whales' ] },
+      //   { author: 'Maisie', books: [ 'Golden Giraffes', 'Bodacious Baboons' ] }
+      // ]
       res.render('authors', { authors })
     })
 })
