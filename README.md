@@ -22,3 +22,4 @@
 * Episode 1-2: [promises](S03E01-2)
 * Episode 2-1: [database joins](S03E02-1)
 * Episode 2-2: [complex joins and aliases](S03E02-2)
+* Episode 3-2: [prototypal inheritance](S03E03-2)
