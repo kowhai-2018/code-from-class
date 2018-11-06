@@ -28,3 +28,4 @@
 * Episode 4-1: [react intro](S04E01-1)
 * Episode 4-1: [react class components](S04E01-2)
 * Episode 4-2: [react state and event handling](S04E02-1)
+* Episode 4-2: [testing with enzyme and snapshots](S04E02-2)
