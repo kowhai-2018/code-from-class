@@ -25,7 +25,8 @@
 * Episode 3-2: [prototypal inheritance](S03E03-2)
 
 ## Season Four
-* Episode 4-1: [react intro](S04E01-1)
-* Episode 4-1: [react class components](S04E01-2)
-* Episode 4-2: [react state and event handling](S04E02-1)
-* Episode 4-2: [testing with enzyme and snapshots](S04E02-2)
+* Episode 1-1: [react intro](S04E01-1)
+* Episode 1-2: [react class components](S04E01-2)
+* Episode 2-1: [react state and event handling](S04E02-1)
+* Episode 2-2: [testing with enzyme and snapshots](S04E02-2)
+* Episode 3: [react-router](S04E03)
