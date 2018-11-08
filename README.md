@@ -30,3 +30,4 @@
 * Episode 2-1: [react state and event handling](S04E02-1)
 * Episode 2-2: [testing with enzyme and snapshots](S04E02-2)
 * Episode 3: [react-router](S04E03)
+* Episode 4: [react forms](S04E04)
