@@ -31,3 +31,6 @@
 * Episode 2-2: [testing with enzyme and snapshots](S04E02-2)
 * Episode 3: [react-router](S04E03)
 * Episode 4: [react forms](S04E04)
+
+## Season Five
+* Episode 1-1: [APIs](S05E01-1)
