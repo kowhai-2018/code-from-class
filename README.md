@@ -34,3 +34,4 @@
 
 ## Season Five
 * Episode 1-1: [APIs](S05E01-1)
+* Episode 1-2: [API testing](S05E01-2)
