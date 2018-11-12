@@ -35,3 +35,4 @@
 ## Season Five
 * Episode 1-1: [APIs](S05E01-1)
 * Episode 1-2: [API testing](S05E01-2)
+* Episode 2: [APIs, lifecycle functions, and CORS](S05E02)
