@@ -36,4 +36,5 @@
 * Episode 1-1: [APIs](S05E01-1)
 * Episode 1-2: [API testing](S05E01-2)
 * Episode 2: [APIs, lifecycle functions, and CORS](S05E02)
+* Episode 2-1: [React to web API walkthrough](S05E02-1)
 * Episode 3: [external APIs, superagent](S05E03)

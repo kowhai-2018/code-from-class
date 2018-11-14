@@ -1,0 +1,54 @@
+{
+  "name": "react-to-web-api",
+  "version": "0.2.2",
+  "description": "A React demo with web APIs",
+  "repository": "https://github.com/dev-academy-challenges/react-to-web-api.git",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "nodemon --watch server & webpack --watch",
+    "dev-client": "webpack-dev-server --hot --inline --content-base public",
+    "dev-server": "nodemon --watch server",
+    "test": "jest --watchAll",
+    "start": "node server"
+  },
+  "babel": {
+    "plugins": [
+      "transform-class-properties"
+    ],
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "jest": {
+    "setupFiles": [
+      "./tests/client/setup.js"
+    ]
+  },
+  "author": "EDA",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "^23.6.0",
+    "nock": "^10.0.2",
+    "nodemon": "^1.14.12",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "sqlite3": "^4.0.4",
+    "supertest": "^3.3.0",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "knex": "^0.15.2",
+    "superagent": "^4.0.0-beta.5"
+  }
+}
