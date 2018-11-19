@@ -38,3 +38,6 @@
 * Episode 2: [APIs, lifecycle functions, and CORS](S05E02)
 * Episode 2-1: [React to web API walkthrough](S05E02-1)
 * Episode 3: [external APIs, superagent](S05E03)
+
+## Season Six
+* Episode 1-2: [testing Redux action creators and reducers (plus walkthrough)](S06E01-2)
