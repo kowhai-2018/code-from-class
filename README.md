@@ -43,3 +43,6 @@
 * Episode 1-2: [testing Redux action creators and reducers (plus walkthrough)](S06E01-2)
 * Episode 2-1: [react-redux](S06E02-1)
 
+## Season Seven
+* Episode 3: [the fishlist demo](S07E03)
+
